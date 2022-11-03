@@ -202,8 +202,7 @@ public class PertambahanDuaAngkaGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonclearActionPerformed
 
     private void jButtonexitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonexitActionPerformed
-        String tanya = "Apakah anda yakin ingin keluar aplikasi?";
-     boolean yakin = JOptionPane.showConfirmDialog(rootPane, evt)==
+     boolean yakin = JOptionPane.showConfirmDialog(rootPane, "Apakah anda yakin ingin keluar aplikasi?")==
              JOptionPane.YES_OPTION;
      if (yakin){
         System.exit(0);
